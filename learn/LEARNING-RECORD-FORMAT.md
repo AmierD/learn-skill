@@ -7,12 +7,16 @@ They are the teaching equivalent of ADRs: they capture non-obvious lessons, key 
 ## Template
 
 ```md
+---
+tags: [concurrency, javascript]
+---
+
 # {Short title of what was learned or established}
 
 {1-3 sentences: what was learned (or what prior knowledge was established), and why it matters for future sessions.}
 ```
 
-That is the whole format. A learning record can be a single paragraph. The value is recording _that_ this is now known and _why_ it changes what to teach next, not in filling out sections.
+That is the whole format. The `tags` frontmatter is required: 1-3 tags from `~/Learning/TAGS.md` (see [TAGS-FORMAT.md](./TAGS-FORMAT.md)). A learning record can be a single paragraph. The value is recording _that_ this is now known and _why_ it changes what to teach next, not in filling out sections.
 
 ## Optional sections
 
